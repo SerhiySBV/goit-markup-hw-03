@@ -36,8 +36,10 @@ h2,
 h3,
 h4,
 h5,
-p {
+p,
+ul {
   margin: 0;
+  padding: 0;
 }
 img {
   display: block;
@@ -46,8 +48,7 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 2px solid red;
-}
+ }
 
 /* Base styles */
 .btn {
@@ -376,7 +377,7 @@ img {
 
   color: rgba(255, 255, 255, 0.6);
 }
-/* Box decoration */
+/* Boxes decoration */
 .footer {
   padding: 60px 0;
 }
@@ -396,7 +397,7 @@ img {
 
 /* Portfolio */
 
-/* Buttons */
+      /* Buttons */
 .portfolio-but-list {
   display: flex;
   gap: 8px;
@@ -404,6 +405,9 @@ img {
   padding-top: 94px;
   margin-bottom: 50px;
 }
+     /* Cards */
+
+     /* Text specification */
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
@@ -428,8 +432,23 @@ img {
 
   color: #2196f3;
 }
+
+/* Boxes specification */
+
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+.portfolio-item {
+  display: list-item;
+  min-width: 370px;
+}
+.description {
+  display: block;
+  padding: 20px 24px;
+}
+.portfolio-title {
+  margin-bottom: 4px;
 }
