@@ -22,7 +22,6 @@ body {
 
 /* Reset styles */
 
-
 .link,
 .list {
   list-style: none;
@@ -48,7 +47,7 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
- }
+}
 
 /* Base styles */
 .btn {
@@ -76,11 +75,14 @@ img {
 
 .header-conteiner {
   display: flex;
+  align-items: center;
 }
 .header {
   background-color: var(--main-white);
 }
-
+.header {
+  border-bottom: 1px solid #ececec;
+}
 /* Logo */
 
 .header-logo {
@@ -98,9 +100,6 @@ img {
   color: #000000;
 }
 .header-logo {
-  display: block;
-  padding-top: 24px;
-  align-items: center;
   margin-right: 93px;
 }
 
@@ -153,7 +152,7 @@ img {
   align-items: center;
 }
 .nav {
-  margin-right: 331px;
+  margin-right: auto;
 }
 
 /* Contacts */
@@ -288,8 +287,10 @@ img {
 }
 .teem-title {
   text-align: center;
-  padding-top: 94px;
   margin-bottom: 50px;
+}
+.teem-link {
+  background-color: var(--main-white);
 }
 .teem-name-title {
   font-weight: 500;
@@ -397,17 +398,16 @@ img {
 
 /* Portfolio */
 
-      /* Buttons */
+/* Buttons */
 .portfolio-but-list {
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
-     /* Cards */
+/* Cards */
 
-     /* Text specification */
+/* Text specification */
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
@@ -434,8 +434,9 @@ img {
 }
 
 /* Boxes specification */
-
-
+.portfolio-section {
+  padding: 94px 0;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -446,8 +447,10 @@ img {
   min-width: 370px;
 }
 .description {
-  display: block;
   padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .portfolio-title {
   margin-bottom: 4px;
